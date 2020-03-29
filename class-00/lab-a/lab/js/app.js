@@ -37,7 +37,7 @@ function displayPics(){
   }
   
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // Because it was trying to access a variable that had been declared locally in while loop, so it can only accessed in the while block
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
